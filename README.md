@@ -15,7 +15,7 @@ Auto Apply Assistant is a smart tool that automates the job search process by an
 ---
 
 ## 📂 Project Structure
-'''
+```
 auto-apply-assistant/
 ├── auto_apply_assistant/      # Main application package/module
 │   ├── __init__.py            # Makes 'auto_apply_assistant' importable as a package
@@ -32,7 +32,7 @@ auto-apply-assistant/
 ├── main.py                    # Main script to run the entire auto-apply process
 ├── README.md                  # This file - project description, setup, and usage instructions
 └── requirements.txt           # Lists Python packages required by the project
-'''
+```
 ---
 
 ## 🛠️ Getting Started
