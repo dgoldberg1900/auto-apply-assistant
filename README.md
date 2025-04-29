@@ -4,13 +4,13 @@ Auto Apply Assistant is a smart tool that automates the job search process by an
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📄 Upload a resume PDF — no manual job title input required
-- 🔍 Intelligent keyword extraction (from Skills, Summary, and Experience sections only)
-- 🤖 Uses automation to search job platforms based on your actual qualifications
-- 🔐 Prompts for user credentials securely — nothing is hardcoded or stored
-- 🧠 Designed with flexibility for future upgrades like auto-apply and ranking matches
+- Upload a resume PDF — no manual job title input required
+- Intelligent keyword extraction (from Skills, Summary, and Experience sections only)
+- Uses automation to search job platforms based on your actual qualifications
+- Prompts for user credentials securely — nothing is hardcoded or stored
+- Designed with flexibility for future upgrades like auto-apply and ranking matches
 
 ---
 
