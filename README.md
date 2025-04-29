@@ -15,9 +15,24 @@ Auto Apply Assistant is a smart tool that automates the job search process by an
 ---
 
 ## 📂 Project Structure
-
-auto-apply-assistant/ ├── auto_apply_assistant/ │ ├── test_selenium.py # Verifies Selenium is working │ ├── resume_parser.py # Extracts and filters meaningful resume keywords │ └── job_scraper.py # Launches browser, logs in, and searches jobs using extracted keywords ├── .gitignore └── README.md
-
+'''
+auto-apply-assistant/
+├── auto_apply_assistant/      # Main application package/module
+│   ├── __init__.py            # Makes 'auto_apply_assistant' importable as a package
+│   ├── resume_parser.py       # Extracts and filters meaningful resume keywords
+│   ├── job_scraper.py         # Launches browser, logs in, searches, and applies for jobs
+│   └── config_loader.py       # (Optional) Module to load configuration (e.g., from .env)
+├── tests/                     # Contains all test files
+│   ├── __init__.py            # Makes 'tests' importable
+│   └── test_selenium_setup.py # Verifies Selenium environment is working correctly
+│   └── test_resume_parser.py  # (Future) Unit tests for resume_parser functions
+│   └── test_job_scraper.py    # (Future) Integration/functional tests for job_scraper
+├── .env.example               # Example environment variables (credentials, paths) - DO NOT COMMIT ACTUAL .env
+├── .gitignore                 # Specifies intentionally untracked files that Git should ignore
+├── main.py                    # Main script to run the entire auto-apply process
+├── README.md                  # This file - project description, setup, and usage instructions
+└── requirements.txt           # Lists Python packages required by the project
+'''
 ---
 
 ## 🛠️ Getting Started
